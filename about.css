@@ -2,3 +2,165 @@ body{
     background-color: black;
     color: white;
 }
+
+
+
+
+.topcontainer{
+ 
+    display: flex;
+    width: 100%;
+   
+   margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.top{
+    display: flex;
+}
+
+.topleft{
+    background-color: lightgrey;
+    width: 250px;
+    height:250px;
+
+   
+   
+}
+
+
+
+.pages{
+    
+ align-self: flex-start;
+
+
+}
+
+
+
+
+.contact-a{
+    text-decoration: none;
+   
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+
+.abt-a{
+    text-decoration: none;
+   color: white;
+    
+    font-size: 15px;
+    
+}
+
+
+.pro-a{
+    text-decoration: none;
+  
+    color: white;
+    font-size: 15px;
+}
+
+.tr{
+    color: white;
+    margin-right: 20px;
+   
+}
+
+
+h1{
+  
+    padding-left: 30px;
+}
+
+
+.heading{
+    width: 450px;
+    line-height: 80px;
+    margin-top: 30px;
+}
+
+
+.para{
+   
+    width: 75%;
+   height: auto;
+   margin-left: 10%;
+    
+    
+}
+
+
+
+.left-a-container{
+   align-self: flex-end;
+   font-size: 10px;
+   margin-left: 30px;
+
+  
+}
+
+.left-a{
+    padding: 10px;
+    line-height: 30px;
+    
+}
+
+
+.dp{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 80%;
+}
+
+.bottom-container{
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: lightblue;
+    display: flex;
+    width: 92%;
+    height: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.bottom-child{
+   
+    margin-left: 7%;
+    line-height: 30px;
+    
+    
+}
+h5{
+  
+}
+.last-a{
+   
+    font-size: 25px;
+    line-height: 50px;
+   
+}
+
+
+
+.pk{
+    color: #8A2BE2;
+  
+}
+
+
+
+
+
+
+

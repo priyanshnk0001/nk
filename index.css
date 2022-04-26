@@ -3,14 +3,77 @@ body{
     color: white;
 }
 
+
+
+.topcontainer{
+ 
+    display: flex;
+    width: 100%;
+   
+   margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.top{
+    display: flex;
+}
+
 .topleft{
     background-color: lightgrey;
     width: 200px;
     height: 200px;
 
-   padding-left: 20px;
+   
    
 }
+
+.pages{
+    
+    align-self: flex-start;
+   
+   
+   }
+   
+   
+   
+   
+   .contact-a{
+       text-decoration: none;
+       color: white;
+       
+       font-size: 15px;
+       
+   }
+   
+   
+   
+   .abt-a{
+       text-decoration: none;
+      color: white;
+       
+       font-size: 15px;
+       
+   }
+   
+   
+   .pro-a{
+       text-decoration: none;
+      color: white;
+      
+       font-size: 15px;
+   }
+   
+   .tr{
+       margin-right: 20px;
+      
+   }
+
+
+
+
+
+
+
 .name{
     padding-top: 20px;
     padding-left: 30px;
@@ -18,210 +81,103 @@ body{
     color: black;
 }
 h1{
+  
     padding-left: 30px;
-   
 }
-a{
-    font-size: 10px;
-    padding: 30px;
-    text-decoration: none;
-}
+
 .heading{
-    width: 400px;
+    width: 50%;
     line-height: 80px;
 }
 
-.topright{
-    height: 20px;
-    width: 300px;
-    background-color: blueviolet;
-}
-.contact{
-    position: absolute;
-    right: 40px;
-    top: 30px;
-}
 
-.contact-a{
-    
-    color: white;
-    
-    font-size: 15px;
-    
-}
 
-.abt{
-    position: absolute;
-    right: 140px;
-    top: 30px;
-   }
-
-.abt-a{
-   color: white;
-    
-    font-size: 15px;
-    
-}
-
-.pro{
-    position: absolute;
-    top: 30px;
-    right: 212px;
-}
-.pro-a{
-   color: white;
-   
-    font-size: 15px;
-    
-}
 
 .para{
    
-   width: 75%;
-   position: absolute;
-   right: 40px;
-}
-img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  margin-bottom: 100px;
-  width: 80%;
-
-
-}
-
-.priyanshdpabt{
-    width: 80%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    width: 75%;
+   height: auto;
+   margin-left: 10%;
+    
     
 }
 
+.container{
+    display: flex;
+width: 80%;
+height:auto;
+justify-content: space-between;
+  margin-top: 50px;
+    align-items: center;
 
-
-.earth-image{
-    width: 35%;
-    margin-left: 20px;
-    margin-right: 10px;
-    float: left;
-}
- 
-.about-earth{
-    width: 60%;
-    position: absolute;
-    right: 20px;
-   
-}
-
-.earth{
-   
-}
     
+
+}
+
+.item{
+   
+  margin-left: 50px;
+   width: 30%;
   
+}
 
-.earth-para{
-    padding: 60px;
-    }
-
-    .sun-container{
-        width: 100%;
-       
-        position: absolute;
-        top: 570px;
-    }
-
-    .sun-image{
-        width: 35%;
-        margin-left: 20px;
-        margin-right: 10px;
-        float: left;
-    }
+.first{
+    width: 30%;
+    height: 90%;
+    margin-left: 10px;
     
-    .sun-para{
-        padding: 60px;
-        
-    }
+}
 
-    .about-sun{
-        width: 60%;
-        position: absolute;
-        right: 20px;
-    }
+.second{
+    width: 60%;
+    height: 90%;
+ 
+    flex-grow: 2;
+}
+.earth{
+    width: 100%;
+}
+.sun{
+    width: 100%;
+    height: 100%;
+}
 
+.mercury{
+    width: 100%;
+    height: 100%;
+}
 
-
-
-    .mercury-container{
-        width: 100%;
-       
-        position: absolute;
-        top: 940px;
-    }
-
-    .mercury-image{
-        width: 35%;
-        margin-left: 20px;
-        margin-right: 10px;
-        float: left;
-    }
+.bottom-container{
+    background-color: lightblue;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
     
-    .mercury-para{
-        padding: 60px;
-        
-    }
+}
 
-    .about-mercury{
-        width: 60%;
-        position: absolute;
-        right: 20px;
-    }
-
-    .last-container{
-       
-        width: 100%;
-        position: absolute;
-        top: 1550px;
-        background-color: lightblue;
-
-     
-    }
-    .last{
-        padding: 50px;
-        line-height: 30px;
-        font-size: 20px;
-       
-
-    }
-    .last-a{
-        font-size: 20px;
-        line-height: 50px;
-    }
-
-    h5{
-        color: black;
-    }
-
-    .last-container-a{
-       
-        width: 100%;
-        position: absolute;
-        top: 1250px;
-        background-color: lightblue;
-
-     
-    }
-    .last-a{
-        padding: 50px;
-        line-height: 30px;
-        font-size: 20px;
-       
-
-    }
-    .last-aa{
-        font-size: 20px;
-        line-height: 50px;
-    }
+.bottom-child{
+   
+    margin-left: 5%;
+    line-height: 30px;
     
+    
+}
+h5{
+   padding-left: 4%;
+}
+.last-a{
+   
+    font-size: 25px;
+    line-height: 50px;
+   
+}
+
+
+
+.pk{
+    color: #8A2BE2;
+    padding: 4%;
+}
