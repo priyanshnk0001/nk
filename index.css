@@ -149,18 +149,18 @@ justify-content: space-between;
 }
 
 .bottom-container{
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightblue;
-    display: flex;
-    width: 92%;
-    height: auto;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 30px;
-    margin-top: 30px;
-    
-}
+     background-color: lightblue;
+     display: flex;
+     width: 92%;
+     height: auto;
+     justify-content: flex-start;
+     flex-direction: column;
+     padding: 30px;
+     
+ }
 
 .bottom-child{
    
